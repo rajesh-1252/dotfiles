@@ -1,0 +1,23 @@
+#  path .config/alacritty/alacritty.yml
+window:
+  opacity: 0.8
+# Font configuration
+
+font:
+  normal:
+    family: "Hack Nerd Font"
+    style: Regular
+  bold:
+    family: "Hack Nerd Font"
+    style: Bold
+  italic:
+    family: "Hack Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: Bold Italic
+
+# referenc
+# https://www.reddit.com/r/neovim/comments/okbag3/how_can_i_remap_ctrl_backspace_to_delete_a_word/
+key_bindings:
+  - { key: Back, mods: Control, chars: "\x17" }
