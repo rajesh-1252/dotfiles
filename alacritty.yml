@@ -1,7 +1,4 @@
 #  path .config/alacritty/alacritty.yml
-window:
-  opacity: 0.8
-# Font configuration
 import:
   # uncomment the flavour you want below:
   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
@@ -9,22 +6,39 @@ import:
  # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
  # - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 
+window:
+  opacity: .8
+# Font configuration
 
 font:
-  normal:
+  normal: 
     family: "Hack Nerd Font"
     style: Regular
-  bold:
+  bold: 
     family: "Hack Nerd Font"
     style: Bold
-  italic:
+  italic: 
     family: "Hack Nerd Font"
     style: Italic
-  bold_italic:
+  bold_italic: 
     family: "Hack Nerd Font"
-    style: Bold Italic
+    style: Bold Italic 
 
-# referenc
+# referenc  
 # https://www.reddit.com/r/neovim/comments/okbag3/how_can_i_remap_ctrl_backspace_to_delete_a_word/
 key_bindings:
   - { key: Back, mods: Control, chars: "\x17" }
+
+# font:
+#   normal: 
+#     family: "Meslo LG S DZ Nerd Font"
+#     style: Regular
+#   bold: 
+#     family: "Meslo LG S DZ Nerd Font"
+#     style: Bold
+#   italic: 
+#     family: "Meslo LG S DZ Nerd Font"
+#     style: Italic
+#   bold_italic: 
+#     family: "Meslo LG S DZ Nerd Font"
+#     style: Bold Italic 
